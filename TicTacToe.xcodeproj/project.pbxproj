@@ -64,6 +64,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8205D82C22272ED100D5215A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9DA41C3F2148ABB5001A3F45 /* Main.storyboard */,
+				9DA41C442148ABB5001A3F45 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		9DA41C2F2148ABB4001A3F45 = {
 			isa = PBXGroup;
 			children = (
@@ -85,11 +94,11 @@
 		9DA41C3A2148ABB4001A3F45 /* TicTacToe */ = {
 			isa = PBXGroup;
 			children = (
-				9DA41C3B2148ABB5001A3F45 /* AppDelegate.swift */,
 				9DA41C5C2148AC00001A3F45 /* GameViewController.swift */,
 				9DA41C702148DE1B001A3F45 /* BoardViewController.swift */,
 				9DA41C602148AE13001A3F45 /* GameBoard.swift */,
 				9DA41C662148B945001A3F45 /* GameAI.swift */,
+				8205D82C22272ED100D5215A /* Storyboards */,
 				9DA41C4D2148ABCA001A3F45 /* Resources */,
 			);
 			path = TicTacToe;
@@ -98,9 +107,8 @@
 		9DA41C4D2148ABCA001A3F45 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				9DA41C3F2148ABB5001A3F45 /* Main.storyboard */,
+				9DA41C3B2148ABB5001A3F45 /* AppDelegate.swift */,
 				9DA41C422148ABB5001A3F45 /* Assets.xcassets */,
-				9DA41C442148ABB5001A3F45 /* LaunchScreen.storyboard */,
 				9DA41C472148ABB5001A3F45 /* Info.plist */,
 			);
 			path = Resources;
@@ -109,8 +117,8 @@
 		9DA41C532148ABED001A3F45 /* TicTacToeTests */ = {
 			isa = PBXGroup;
 			children = (
-				9DA41C622148AE68001A3F45 /* GameBoardTests.swift */,
 				9DA41C682148B9AC001A3F45 /* GameAITests.swift */,
+				9DA41C622148AE68001A3F45 /* GameBoardTests.swift */,
 				9DA41C562148ABEE001A3F45 /* Info.plist */,
 			);
 			path = TicTacToeTests;
